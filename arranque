@@ -1,0 +1,10 @@
+#!/bin/bash
+
+sudo service mongod start
+
+. flask/bin/activate
+
+cd flask/scripts
+
+python iroom.py
+
